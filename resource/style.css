@@ -1,0 +1,104 @@
+body{
+    /*mudar a cor do fundo*/
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+.nav-bar{
+    background-color: #202020;
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-bar ul li{
+    display: inline;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+
+.fontsize{
+    font-size: 30px;
+    color: white;
+}
+
+.floatest{
+    float: left;
+    display: inline;
+    padding: 1px 20px;
+}
+
+
+
+.jumbotron {
+    width: 60vw;
+    padding: 25px;
+    margin-left: 95px;
+    margin-top: 15px;
+    font-size: 21px;
+    font-weight: 20;
+    border: 2px solid white;
+}
+
+.boostrap {
+    font-size: 1.1em;
+}
+
+.heading{
+    border-color: white;
+    border-style: solid;
+    margin-top: 10px;
+    width: 15vw;
+    margin-left: 95px;
+    padding: 10px;
+    font-size: 1.em;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.margin {
+    margin-top: 40px;
+    margin-left: 134px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #0a0a0a;
+    border: 1px solid #ddd;
+    padding-right: 100px;
+}
+
+.list-group {
+    display: table;
+    vertical-align: top;
+    float: right;
+    margin-right: 400px;
+    size: 1.3em;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    z-index: 1;
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
